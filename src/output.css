@@ -1118,4 +1118,19 @@ video {
     -o-object-fit: cover;
        object-fit: cover;
   }
+
+  .max-sm\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .max-sm\:px-px {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .max-sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }

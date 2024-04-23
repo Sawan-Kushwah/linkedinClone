@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="output.css" rel="stylesheet">
+    <link href="src/output.css" rel="stylesheet">
 </head>
 
 <body class="bg-black text-white m-0 p-0 box-border">
     <nav class="navbar  bg-gray-800 h-14 w-full sticky top-0 left-0 z-10">
-        <div class="navBox flex justify-around items-center h-full px-40 py-2 text-sm max-lg:px-4 text-gray-300 ">
+        <div
+            class="navBox flex justify-around items-center h-full px-40 py-2 text-sm max-lg:px-4 text-gray-300  max-sm:px-px">
             <div class="searchBox w-1/4 flex items-center max-lg:w-auto">
                 <div class="logo mx-1 text-white cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match"
@@ -136,7 +137,7 @@
 
     <!-- main section start here  -->
     <main>
-        <div class="mainSection flex m-auto mt-4 w-fit max-sm:flex-col">
+        <div class="mainSection flex m-auto mt-4 w-fit max-sm:w-full max-sm:flex-col">
             <div class="profileContainerFull flex flex-col mx-3 w-56 h-auto max-sm:mb-3 max-sm:w-fit max-sm:mx-px">
                 <div class="firstContainer bg-gray-800   border border-gray-800 rounded-2xl w-full ">
                     <div class="profileDetails">
@@ -240,11 +241,11 @@
                 </div>
             </div>
 
-            <div class="secondContainer  mx-3 h-auto: w-[555px] max-sm:w-fit max-sm:mx-px max-lg:w-96">
+            <div class="secondContainer  mx-3 h-auto: w-[555px] max-sm:w-full max-sm:mx-px">
 
                 <div class="startByPost bg-gray-800  border border-gray-800 rounded-2xl">
                     <div class="profileTop flex flex-col">
-                        <div class="profileSearch flex p-5 items-center">
+                        <div class="profileSearch flex p-5 max-sm:px-2 items-center">
                             <div class="profileImg">
                                 <img width="60"
                                     src="https://media.licdn.com/dms/image/D4D03AQExi2L1iZoycg/profile-displayphoto-shrink_100_100/0/1713621091204?e=1719446400&amp;v=beta&amp;t=fJp9WpotVXstOxreR-6JdOZzBhZPXtncLKyOLyDv0qg"
@@ -259,7 +260,7 @@
                             </div>
                         </div>
 
-                        <div class="medias flex justify-evenly pb-5">
+                        <div class="medias flex justify-evenly pb-5 max-sm:text-sm">
                             <div class="media flex items-center">
                                 <div class="icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="image-medium"
@@ -393,7 +394,7 @@
                         </div>
                     </div>
                     <div class="w-11/12 bg-gray-400 h-px  m-auto"></div>
-                    <div class="doLikeCommentShareRepost py-2 flex justify-around text-gray-400">
+                    <div class="doLikeCommentShareRepost py-2 flex justify-around text-gray-400 max-sm:text-sm">
                         <div
                             class="like cursor-pointer hover:underline hover:bg-gray-700 py-px px-1 hover:text-gray-200 flex items-center">
                             <div class="icon">
@@ -527,9 +528,9 @@
                         </div>
                     </div>
                     <div class="w-11/12 bg-gray-400 h-px  m-auto"></div>
-                    <div class="doLikeCommentShareRepost py-2 px-3 flex justify-around text-gray-400">
+                    <div class="doLikeCommentShareRepost py-2  flex justify-around text-gray-400 max-sm:text-sm">
                         <div
-                            class="like cursor-pointer hover:underline hover:bg-gray-700 py-px px-6 hover:text-gray-200 flex  items-center">
+                            class="like cursor-pointer hover:underline hover:bg-gray-700 py-px px-1 hover:text-gray-200 flex  items-center">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                     id="thumbs-up-outline-medium" aria-hidden="true" role="none"
@@ -574,7 +575,7 @@
                             </div>
                         </div>
                         <div
-                            class="Send cursor-pointer hover:underline hover:bg-gray-700 py-px px-6 hover:text-gray-200 flex  items-center">
+                            class="Send cursor-pointer hover:underline hover:bg-gray-700 py-px px-1 hover:text-gray-200 flex  items-center">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="rtl-flip"
                                     id="send-privately-medium" aria-hidden="true" role="none" data-supported-dps="24x24"
@@ -660,9 +661,9 @@
                         </div>
                     </div>
                     <div class="w-11/12 bg-gray-400 h-px  m-auto"></div>
-                    <div class="doLikeCommentShareRepost py-2 px-3 flex justify-around text-gray-400">
+                    <div class="doLikeCommentShareRepost py-2  flex justify-around text-gray-400 max-sm:text-sm">
                         <div
-                            class="like cursor-pointer hover:underline hover:bg-gray-700 py-px px-6 hover:text-gray-200 flex  items-center">
+                            class="like cursor-pointer hover:underline hover:bg-gray-700 py-px px-1 hover:text-gray-200 flex  items-center">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                     id="thumbs-up-outline-medium" aria-hidden="true" role="none"
@@ -707,7 +708,7 @@
                             </div>
                         </div>
                         <div
-                            class="Send cursor-pointer hover:underline hover:bg-gray-700 py-px px-6 hover:text-gray-200 flex  items-center">
+                            class="Send cursor-pointer hover:underline hover:bg-gray-700 py-px px-1 hover:text-gray-200 flex  items-center">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="rtl-flip"
                                     id="send-privately-medium" aria-hidden="true" role="none" data-supported-dps="24x24"
@@ -793,9 +794,9 @@
                         </div>
                     </div>
                     <div class="w-11/12 bg-gray-400 h-px  m-auto"></div>
-                    <div class="doLikeCommentShareRepost py-2 px-3 flex justify-around text-gray-400">
+                    <div class="doLikeCommentShareRepost py-2  flex justify-around text-gray-400 max-sm:text-sm">
                         <div
-                            class="like cursor-pointer hover:underline hover:bg-gray-700 py-px px-6 hover:text-gray-200 flex  items-center">
+                            class="like cursor-pointer hover:underline hover:bg-gray-700 py-px px-1 hover:text-gray-200 flex  items-center">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                     id="thumbs-up-outline-medium" aria-hidden="true" role="none"
@@ -840,7 +841,7 @@
                             </div>
                         </div>
                         <div
-                            class="Send cursor-pointer hover:underline hover:bg-gray-700 py-px px-6 hover:text-gray-200 flex  items-center">
+                            class="Send cursor-pointer hover:underline hover:bg-gray-700 py-px px-1 hover:text-gray-200 flex  items-center">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="rtl-flip"
                                     id="send-privately-medium" aria-hidden="true" role="none" data-supported-dps="24x24"
